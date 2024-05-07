@@ -3,7 +3,7 @@ import socket
 import webbrowser
 from hashlib import sha256
 
-HOST = '127.0.0.1'
+HOST = open("host.txt", "r").read()
 PORT = 49474
 
 # password from password.txt
