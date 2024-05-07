@@ -1,7 +1,7 @@
 import threading
 import socket
 
-HOST = int(input("Input a host --> "))
+HOST = input("Input a host --> ")
 PORT = 49474
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # Create a socket object (AF_INET: address family, SOCK_STREAM: socket type)
